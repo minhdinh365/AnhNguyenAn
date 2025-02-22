@@ -35,7 +35,7 @@ export default function Banner() {
                 <Swiper {...swiperOptions} className="banner-carousel">                    
                     <SwiperSlide className="slide-item p_relative">
                       <div className="swiper-slide">
-                        <div className="banner-feature-image d-none d-lg-block" style={{backgroundImage: 'url(assets/images/main-slider/banner-3.jpg)'}}></div>
+                        <div className="banner-feature-image d-lg-block" style={{backgroundImage: 'url(assets/images/main-slider/background.jpg)'}}></div>
                         <div className="content-outer">
                           <div className="content-box">
                             <div className="inner">
@@ -52,7 +52,7 @@ export default function Banner() {
                     </SwiperSlide>
                     <SwiperSlide className="slide-item p_relative">
                       <div className="swiper-slide">
-                        <div className="banner-feature-image d-none d-lg-block" style={{backgroundImage: 'url(assets/images/main-slider/banner-3.jpg)'}}></div>
+                        <div className="banner-feature-image d-lg-block" style={{backgroundImage: 'url(assets/images/main-slider/background-2.jpg)'}}></div>
                         <div className="content-outer">
                           <div className="content-box">
                             <div className="inner">

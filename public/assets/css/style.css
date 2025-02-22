@@ -1808,7 +1808,7 @@ button.theme-btn.search-toggler:hover {
     top: 0;
     right: 0;
     bottom: 0;
-    width: 50%;
+    width: 70%;
 	opacity: 0;
 	background-size: cover;
 	-webkit-transition: all 500ms ease;
