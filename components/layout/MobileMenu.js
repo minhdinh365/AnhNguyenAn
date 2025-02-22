@@ -33,11 +33,10 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
           <span className="fal fa-times" />
         </div>
         <nav className="menu-box">
-          <div className="logo" style={{ width: "300px" }}>
+        <div className="nav-logo">
             <Link href="/">
-              <img className="img-logo" src="assets/images/logo.png" alt="" />
+              <img src="/assets/images/logo.png" alt="" />
             </Link>
-            <span className="logo-text">Anh Nguyễn</span>
           </div>
           <div className="menu-outer">
             <div
