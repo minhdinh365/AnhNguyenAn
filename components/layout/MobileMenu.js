@@ -33,10 +33,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
           <span className="fal fa-times" />
         </div>
         <nav className="menu-box">
-        <div className="nav-logo">
-            <Link href="/">
-              <img src="/assets/images/logo.png" alt="" />
-            </Link>
+        <div style={{marginBottom: 50}}>
           </div>
           <div className="menu-outer">
             <div
