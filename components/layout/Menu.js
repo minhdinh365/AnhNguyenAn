@@ -40,7 +40,7 @@ export default function Menu() {
             </li>
           </ul>
         </li>
-        <li className="dropdown">
+        <li>
           <Link href="/events">Tuyển dụng</Link>
         </li>
         <li className="dropdown">
