@@ -1,18 +1,24 @@
-import "@/node_modules/react-modal-video/css/modal-video.css"
-import "public/assets/css/style.css"
+import "@/node_modules/react-modal-video/css/modal-video.css";
+import "public/assets/css/style.css";
 // import "swiper/css/navigation"
-import "swiper/css/pagination"
-import 'swiper/css/free-mode';
-import { cormorant, dmSans } from '@/lib/font'
+import "swiper/css/pagination";
+import "swiper/css/free-mode";
+import { cormorant, dmSans } from "@/lib/font";
 export const metadata = {
-    title: 'Anh Nguyễn An',
-    description: 'Công Ty TNHH Thương Mại XNK Nguyễn An',
-}
+  title: "Anh Nguyễn An",
+  description: "Công Ty TNHH Thương Mại XNK Nguyễn An",
+};
 
 export default function RootLayout({ children }) {
-    return (
-        <html lang="en" className={`${dmSans.variable} ${cormorant.variable}`}>
-            <body>{children}</body>
-        </html>
-    )
+  return (
+    <html lang="en" className={`${dmSans.variable} ${cormorant.variable}`}>
+      <head>
+        <meta
+          name="google-site-verification"
+          content="pNlabxxd4V_pwX3sNj1nEVAHR96Yi_2TMttiH6HFR_c"
+        />
+      </head>
+      <body>{children}</body>
+    </html>
+  );
 }

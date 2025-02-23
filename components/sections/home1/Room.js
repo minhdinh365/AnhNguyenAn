@@ -20,7 +20,7 @@ export default function Room() {
                 </div>
                 <div className="room-1-content">
                   <p className="room-1-meta-info">
-                    <span className="theme-color">100,000đ</span>/500ml
+                    <span className="theme-color">Thể tích:</span> 500ml
                   </p>
                   <h4 className="room-1-title mb_20">
                     <Link href="/room-details">Palmyran</Link>
@@ -47,7 +47,7 @@ export default function Room() {
                 </div>
                 <div className="room-1-content">
                   <p className="room-1-meta-info">
-                    <span className="theme-color">100,000đ</span>/500ml
+                    <span className="theme-color">Thể tích:</span> 500ml
                   </p>
                   <h4 className="room-1-title mb_20">
                     <Link href="/room-details">Boron vinaf24</Link>
@@ -74,7 +74,7 @@ export default function Room() {
                 </div>
                 <div className="room-1-content">
                   <p className="room-1-meta-info">
-                    <span className="theme-color">100,000đ</span>/250ml
+                    <span className="theme-color">Thể tích:</span>250ml
                   </p>
                   <h4 className="room-1-title mb_20">
                     <Link href="/room-details">Phospho gel</Link>
@@ -101,7 +101,7 @@ export default function Room() {
                 </div>
                 <div className="room-1-content">
                   <p className="room-1-meta-info">
-                    <span className="theme-color">100,000đ</span>/500ml
+                    <span className="theme-color">Thể tích:</span>500ml
                   </p>
                   <h4 className="room-1-title mb_20">
                     <Link href="/room-details">Selika K+</Link>
@@ -128,7 +128,7 @@ export default function Room() {
                 </div>
                 <div className="room-1-content">
                   <p className="room-1-meta-info">
-                    <span className="theme-color">100,000đ</span>/500ml
+                    <span className="theme-color">Thể tích:</span>500ml
                   </p>
                   <h4 className="room-1-title mb_20">
                     <Link href="/room-details">Amino forte</Link>

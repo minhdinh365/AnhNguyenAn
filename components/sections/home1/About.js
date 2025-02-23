@@ -30,7 +30,7 @@ export default function About() {
                 một trong những đơn vị dẫn đầu trong lĩnh vực sản xuất và cung
                 cấp các sản phẩm phân bón hữu cơ sinh học tại Việt Nam. Với sứ
                 mệnh mang lại giải pháp nông nghiệp bền vững và thân thiện với
-                môi trường, Đạt Phát Nông không ngừng nghiên cứu và phát triển
+                môi trường, Anh Nguyễn An không ngừng nghiên cứu và phát triển
                 những sản phẩm phân bón chất lượng cao, đáp ứng nhu cầu đa dạng
                 của bà con nông dân trên toàn quốc. Chúng tôi cam kết đồng hành
                 cùng khách hàng trên hành trình xây dựng nền nông nghiệp xanh,
