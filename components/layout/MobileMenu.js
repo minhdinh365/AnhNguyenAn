@@ -33,8 +33,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
           <span className="fal fa-times" />
         </div>
         <nav className="menu-box">
-        <div style={{marginBottom: 50}}>
-          </div>
+          <div style={{ marginBottom: 50 }}></div>
           <div className="menu-outer">
             <div
               className="collapse navbar-collapse show clearfix"
@@ -46,119 +45,18 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                     Trang chủ
                   </Link>
                 </li>
-                <li
-                  className={
-                    isActive.key == 2 ? "dropdown current" : "dropdown"
-                  }
-                >
-                  <Link href="/#" onClick={handleMobileMenu}>
+                <li className={isActive.key == 2 ? "current" : ""}>
+                  <Link href="/about-us" onClick={handleMobileMenu}>
                     Giới thiệu
                   </Link>
-                  <ul
-                    style={{
-                      display: `${isActive.key == 2 ? "block" : "none"}`,
-                    }}
-                  >
-                    <li>
-                      <Link href="/about-us" onClick={handleMobileMenu}>
-                        About
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/team" onClick={handleMobileMenu}>
-                        Team
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/testimonials" onClick={handleMobileMenu}>
-                        Testimonials
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/faq" onClick={handleMobileMenu}>
-                        FAQ
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/not-found" onClick={handleMobileMenu}>
-                        404 Error Page
-                      </Link>
-                    </li>
-                  </ul>
-                  <div
-                    className={
-                      isActive.key == 2 ? "dropdown-btn open" : "dropdown-btn"
-                    }
-                    onClick={() => handleToggle(2)}
-                  >
-                    <span className="fa fa-angle-right" />
-                  </div>
                 </li>
-                <li
-                  className={
-                    isActive.key == 3 ? "dropdown current" : "dropdown"
-                  }
-                >
-                  <Link href="/#" onClick={handleMobileMenu}>
-                    Tin tức
-                  </Link>
-                  <ul
-                    style={{
-                      display: `${isActive.key == 3 ? "block" : "none"}`,
-                    }}
-                  >
-                      <li><Link href="/events" onClick={handleMobileMenu}>Events </Link></li>
-                      <li><Link href="/event-details" onClick={handleMobileMenu}>Events Details</Link></li>
-                    
-                  </ul>
-                  <div
-                    className={
-                      isActive.key == 3 ? "dropdown-btn open" : "dropdown-btn"
-                    }
-                    onClick={() => handleToggle(3)}
-                  >
-                    <span className="fa fa-angle-right" />
-                  </div>
-                </li>
-                <li
-                  className={
-                    isActive.key == 5 ? "dropdown current" : "dropdown"
-                  }
-                >
-                  <Link href="/#" onClick={handleMobileMenu}>
+
+                <li className={isActive.key == 5 ? "current" : ""}>
+                  <Link href="/room-1" onClick={handleMobileMenu}>
                     Sản Phẩm
                   </Link>
-                  <ul
-                    style={{
-                      display: `${isActive.key == 5 ? "block" : "none"}`,
-                    }}
-                  >
-                    <li>
-                      <Link href="/room-1" onClick={handleMobileMenu}>
-                        Room Style 01
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/room-2" onClick={handleMobileMenu}>
-                        Room Style 02
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/room-details" onClick={handleMobileMenu}>
-                        Room Details
-                      </Link>
-                    </li>
-                  </ul>
-                  <div
-                    className={
-                      isActive.key == 5 ? "dropdown-btn open" : "dropdown-btn"
-                    }
-                    onClick={() => handleToggle(5)}
-                  >
-                    <span className="fa fa-angle-right" />
-                  </div>
                 </li>
-                <li
+                {/* <li
                   className={
                     isActive.key == 6 ? "dropdown current" : "dropdown"
                   }
@@ -192,6 +90,39 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                       isActive.key == 6 ? "dropdown-btn open" : "dropdown-btn"
                     }
                     onClick={() => handleToggle(6)}
+                  >
+                    <span className="fa fa-angle-right" />
+                  </div>
+                </li> */}
+                <li
+                  className={
+                    isActive.key == 3 ? "dropdown current" : "dropdown"
+                  }
+                >
+                  <Link href="/#" onClick={handleMobileMenu}>
+                    Tin tức
+                  </Link>
+                  <ul
+                    style={{
+                      display: `${isActive.key == 3 ? "block" : "none"}`,
+                    }}
+                  >
+                    <li>
+                      <Link href="/events" onClick={handleMobileMenu}>
+                        Events{" "}
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/event-details" onClick={handleMobileMenu}>
+                        Events Details
+                      </Link>
+                    </li>
+                  </ul>
+                  <div
+                    className={
+                      isActive.key == 3 ? "dropdown-btn open" : "dropdown-btn"
+                    }
+                    onClick={() => handleToggle(3)}
                   >
                     <span className="fa fa-angle-right" />
                   </div>
