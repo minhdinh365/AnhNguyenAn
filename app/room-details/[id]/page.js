@@ -1,11 +1,9 @@
 "use client";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
-import { PRODUCT_DETAILS } from "../../utils/constant";
-export default function Home() {
-  const searchParams = useSearchParams();
-  const id = searchParams.get("id");
+import { PRODUCT_DETAILS } from "../../../utils/constant";
+export default function RoomDetails({ params }) {
+  const { id } = params;
 
   const product = PRODUCT_DETAILS.find((item) => item.id === Number(id));
 

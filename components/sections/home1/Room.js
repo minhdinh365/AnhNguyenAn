@@ -26,14 +26,14 @@ export default function Room() {
                       {room.weight}
                     </p>
                     <h4 className="room-1-title mb_20">
-                      <Link href={`/room-details?id=${room.id}`}>
+                      <Link href={`/room-details/${room.id}`}>
                         {room.title}
                       </Link>
                     </h4>
                     <p className="room-1-text mb_30">{room.description}</p>
                     <div className="link-btn">
                       <Link
-                        href={`/room-details?id=${room.id}`}
+                        href={`/room-details/${room.id}`}
                         className="btn-1 btn-alt"
                       >
                         Mua ngay <span></span>

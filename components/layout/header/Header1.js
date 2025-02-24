@@ -5,7 +5,6 @@ import MobileMenu from "../MobileMenu"
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSidebar, handlePopup, handleSidebar }) {
     return (
         <>
-
             <header className={`main-header header-style-one ${scroll ? "fixed-header" : ""}`}>
                 
                 <div className="header-upper">
@@ -14,10 +13,10 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="logo-box">
                             <div className="logo" style={{ width: '300px' }}>
                                 <Link href="/">
-                                    <img className="img-logo" src="assets/images/logo.png" alt="" />
+                                    <img className="img-logo" src="/assets/images/logo.png" alt="" />
                                 </Link>
                                 <span className="logo-text">Anh Nguyễn</span>
-                                <p className="hotline-head">hotline: 0798.586.677</p>
+                                <p className="hotline-head">Hotline: 0798.586.677</p>
                             </div>
                         </div>
                         <div className="middle-column">
@@ -57,6 +56,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                                     <img className="img-logo" src="assets/images/logo.png" alt="" />
                                 </Link>
                                 <span className="logo-text">Anh Nguyễn</span>
+                                <p style={{paddingLeft: 10}}>Hotline: 0798.586.677</p>
                             </div>
                             </div>
                             <div className="middle-column">
