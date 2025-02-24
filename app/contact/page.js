@@ -5,22 +5,22 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Contact Us">
+            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Liên Hệ">
                 <div>
                 <section className="section-padding">
                     <div className="auto-container">
                         <div className="section_heading mb_40">
-                        <span className="section_heading_title_small">Our location</span>
-                        <h2 className="section_heading_title_big">Explore Our Office <br /> Worldwide</h2>
+                        <span className="section_heading_title_small">Liên hệ thông qua</span>
+                        <h2 className="section_heading_title_big">Công ty TNHH Thương Mại XNK <br /> Anh Nguyễn An</h2>
                         </div>
                         <ul className="contact-info-1 d-flex flex-wrap mb_40">
                         <li>
-                            <h4 className="fs_20 mb_10"><i className="icon-27 mr_10 fs_18"></i>Location</h4>
-                            <p>New Hyde Park, NY 11040</p>
+                            <h4 className="fs_20 mb_10"><i className="icon-27 mr_10 fs_18"></i>Trụ sở chính</h4>
+                            <p>069 Quốc Lộ 1A, phường Bình Trị Đông A, Q. Bình Tân, TP.HCM</p>
                         </li>
                         <li>
-                            <h4 className="fs_20 mb_10"><i className="icon-28 mr_10 fs_18"></i>Phone No</h4>
-                            <p><Link href="tel:(+91) 333 666 0021">(+91) 333 666 0021</Link></p>
+                            <h4 className="fs_20 mb_10"><i className="icon-28 mr_10 fs_18"></i>Phone</h4>
+                            <p><Link href="tel:0798586677">0798.586.677</Link></p>
                         </li>
                         <li>
                             <h4 className="fs_20 mb_10"><i className="icon-29 mr_10 fs_15"></i>Email</h4>
@@ -33,19 +33,19 @@ export default function Home() {
                             <form method="post" id="contact-form">
                                 <div className="row">
                                 <div className="form-group col-md-12">
-                                    <input type="text" name="form_name" placeholder="Your Name" required />
+                                    <input type="text" name="form_name" placeholder="Tên của bạn" required />
                                 </div>
 
                                 <div className="form-group col-md-12">
-                                    <input type="text" name="email" placeholder="Your Email" required />
+                                    <input type="text" name="email" placeholder="Email của bạn" required />
                                 </div>
 
                                 <div className="form-group col-md-12">
-                                    <input type="text" name="form_subject" placeholder="Subject" required />
+                                    <input type="text" name="form_subject" placeholder="Tiêu đề" required />
                                 </div>
 
                                 <div className="form-group col-md-12">
-                                    <textarea name="form_message" placeholder="Massage"></textarea>
+                                    <textarea name="form_message" placeholder="Nội dung"></textarea>
                                 </div>
                                 <div className="form-group col-md-12">
                                     <input id="form_botcheck" name="form_botcheck" className="form-control" type="hidden" />
@@ -59,7 +59,7 @@ export default function Home() {
                             <div className="map mb_30">
                             <iframe
                                 title="Google Map"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55945.16225505631!2d-73.90847969206546!3d40.66490264739892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1601263396347!5m2!1sen!2sbd"
+                                src="https://maps.google.com/maps?q=1069+Qu%E1%BB%91c+L%E1%BB%99+1A%2C+ph%C6%B0%E1%BB%9Dng+B%C3%ACnh+Tr%E1%BB%8B+%C4%90%C3%B4ng+A%2C+Q.+B%C3%ACnh+T%C3%A2n%2C+TP.HCM&t=k&z=16&ie=UTF8&iwloc=&output=embed"
                                 width="600" height="535" frameBorder="0" style={{ border: 0, width: '100%' }} allowFullScreen="" aria-hidden="false" tabIndex="0"
                             ></iframe>
                             </div>

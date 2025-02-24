@@ -53,7 +53,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
 
                 <li className={isActive.key == 5 ? "current" : ""}>
                   <Link href="/room-1" onClick={handleMobileMenu}>
-                    Sản Phẩm
+                    Sản phẩm
                   </Link>
                 </li>
                 {/* <li
@@ -94,38 +94,10 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                     <span className="fa fa-angle-right" />
                   </div>
                 </li> */}
-                <li
-                  className={
-                    isActive.key == 3 ? "dropdown current" : "dropdown"
-                  }
-                >
-                  <Link href="/#" onClick={handleMobileMenu}>
-                    Tin tức
+                <li className={isActive.key == 3 ? "current" : ""}>
+                  <Link href="/events" onClick={handleMobileMenu}>
+                    Tuyển dụng
                   </Link>
-                  <ul
-                    style={{
-                      display: `${isActive.key == 3 ? "block" : "none"}`,
-                    }}
-                  >
-                    <li>
-                      <Link href="/events" onClick={handleMobileMenu}>
-                        Events{" "}
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/event-details" onClick={handleMobileMenu}>
-                        Events Details
-                      </Link>
-                    </li>
-                  </ul>
-                  <div
-                    className={
-                      isActive.key == 3 ? "dropdown-btn open" : "dropdown-btn"
-                    }
-                    onClick={() => handleToggle(3)}
-                  >
-                    <span className="fa fa-angle-right" />
-                  </div>
                 </li>
                 <li>
                   <Link href="/contact" onClick={handleMobileMenu}>
@@ -140,17 +112,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
             <ul className="clearfix">
               <li>
                 <Link href="/#">
-                  <span className="fab fa-twitter" />
-                </Link>
-              </li>
-              <li>
-                <Link href="/#">
                   <span className="fab fa-facebook-square" />
-                </Link>
-              </li>
-              <li>
-                <Link href="/#">
-                  <span className="fab fa-pinterest-p" />
                 </Link>
               </li>
               <li>

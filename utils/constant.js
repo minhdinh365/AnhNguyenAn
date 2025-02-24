@@ -166,3 +166,22 @@ export const PRODUCT_DETAILS = [
     ],
   },
 ];
+
+export const RECRUIT = [
+  {
+    id: 1,
+    jobName: "Kỹ sư nông nghiệp (Nữ)",
+    address: "SL: 03, Các tỉnh miền tây",
+    requirements:
+      "3 năm kinh nghiệm. Trình độ cao đẳng trở lên. Có tiếng anh là một lợi thế.",
+    image: "assets/images/resource/event-1.jpg"
+  },
+  {
+    id: 2,
+    jobName: "Kỹ sư nông nghiệp",
+    address: "SL: 03 (nam) và 03 (nữ), tại các tỉnh Miền Đông Tây Nguyên",
+    requirements:
+      "3 năm kinh nghiệm. Trình độ cao đẳng trở lên. Có tiếng anh là một lợi thế.",
+    image: "assets/images/resource/event-1.jpg"
+  },
+];

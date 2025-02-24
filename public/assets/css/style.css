@@ -4539,3 +4539,9 @@ ul.category-widget-list li.active i {
 	max-height: 250px;
 	object-fit: fill;
 }
+
+.hotline-head {
+ position: absolute;
+ right: 20px;
+ top: 5px;
+}

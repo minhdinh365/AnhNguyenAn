@@ -17,6 +17,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                                     <img className="img-logo" src="assets/images/logo.png" alt="" />
                                 </Link>
                                 <span className="logo-text">Anh Nguyễn</span>
+                                <p className="hotline-head">hotline: 0798.586.677</p>
                             </div>
                         </div>
                         <div className="middle-column">
