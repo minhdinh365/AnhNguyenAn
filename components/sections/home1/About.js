@@ -37,7 +37,7 @@ export default function About() {
                 hiệu quả và bền vững.
               </p>
               <div className="about-1-btn mb_30">
-                <Link href="/about" className="btn-1">
+                <Link href="/about-us" className="btn-1">
                   Xem chi tiết<span></span>
                 </Link>
               </div>

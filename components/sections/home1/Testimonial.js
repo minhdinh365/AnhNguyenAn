@@ -7,7 +7,7 @@ export default function Testimonial() {
         <div className="row">
           <div className="col-lg-4">
             <div className="section_heading mb_20">
-              <span className="section_heading_title_small">22/01/20025</span>
+              <span className="section_heading_title_small">22/01/2025</span>
               <h2 className="section_heading_title_big">Cảm Nghĩ<br /> Khách Hàng</h2>
             </div>
             {/* <p className="testimonial-1-desc">Amet dui scelerisque vel habitant eget <br /> tincidunt facilisis pretium. Porttitor mi <br /> nisi, non vitae tempus.</p> */}

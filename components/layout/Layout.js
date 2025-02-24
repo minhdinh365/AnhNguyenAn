@@ -8,7 +8,7 @@ import SearchPopup from "./SearchPopup"
 import Footer1 from './footer/Footer1'
 import Header1 from "./header/Header1"
 
-export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, wrapperCls }) {
+export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, wrapperCls, hiddenFooter }) {
     const [scroll, setScroll] = useState(0)
     // Mobile Menu
     const [isMobileMenu, setMobileMenu] = useState(false)
@@ -51,7 +51,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
 
                 {children}
 
-                < Footer1 />
+                {!hiddenFooter && < Footer1 />}
             </div>
             <BackToTop scroll={scroll} />
         </>
