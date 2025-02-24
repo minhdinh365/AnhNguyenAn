@@ -75,9 +75,9 @@ export default function Home() {
                           </ul>
                         </div>
                         <div className="form-group mb-0">
-                          <button type="submit" className="btn-1">
-                            Mua Ngay<span></span>
-                          </button>
+                          <Link href="/contact" className="btn-1">
+                            Mua ngay<span></span>
+                          </Link>
                         </div>
                       </form>
                     </div>
