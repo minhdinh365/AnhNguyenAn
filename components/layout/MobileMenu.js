@@ -52,7 +52,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                 </li>
 
                 <li className={isActive.key == 5 ? "current" : ""}>
-                  <Link href="/room-1" onClick={handleMobileMenu}>
+                  <Link href="/products" onClick={handleMobileMenu}>
                     Sản phẩm
                   </Link>
                 </li>

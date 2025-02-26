@@ -68,7 +68,7 @@ export default function Home() {
                             >
                                 <div className="room-2-content">
                                 <h4 className="room-2-title">
-                                    <Link href="/room-details">{room.title}</Link>
+                                    <Link href="/product-details">{room.title}</Link>
                                 </h4>
                                 </div>
                                 <div className="room-2-content2">
@@ -78,7 +78,7 @@ export default function Home() {
                                     ))}
                                 </div>
                                 <h4 className="room-2-title">
-                                    <Link href="/room-details">{room.title}</Link>
+                                    <Link href="/product-details">{room.title}</Link>
                                 </h4>
                                 <p className="room-2-meta-info">Start from <span className="theme-color">{room.price}</span>/night</p>
                                 <p className="room-2-text mb_20">{room.text}</p>

@@ -5,7 +5,7 @@ import { PRODUCT_DETAILS } from "../../../utils/constant";
 export default function RoomDetails({ params }) {
   const { id } = params;
 
-  const product = PRODUCT_DETAILS.find((item) => item.id === Number(id));
+  const product = PRODUCT_DETAILS.find((item) => item.id === id);
 
   if (!product) {
     return (

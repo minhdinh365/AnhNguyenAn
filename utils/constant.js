@@ -6,7 +6,7 @@ export const PRODUCTS = [
     title: "Palmyran",
     description:
       "Dưỡng bông, chống rụng, chống nứt, chống thối trái, bóng trái",
-    id: 1,
+    id: "palmyran",
     animationDuration: ".8s",
   },
   {
@@ -16,7 +16,7 @@ export const PRODUCTS = [
     title: "Boron vinaf24",
     description:
       "Tăng sức sống cho hoa, giảm rụng hoa, sửa trái, cân bằng dinh dưỡng",
-    id: 2,
+    id: "boron-vinaf24",
     animationDuration: "1.2s",
   },
   {
@@ -26,7 +26,7 @@ export const PRODUCTS = [
     title: "Phospho gel",
     description:
       "Phân hóa mầm hoa, kích thích ra bông đồng loạt, tăng tỉ lệ đậu trái",
-    id: 3,
+    id: "phospho-gel",
     animationDuration: "1.5s",
   },
 
@@ -37,7 +37,7 @@ export const PRODUCTS = [
     title: "Selika K+",
     description:
       "Diệt nấm, sâu hại, vi khuẩn, tăng cường chịu hạn, mặn, nhiệt độ cao",
-    id: 4,
+    id: "selika-kplus",
     animationDuration: ".8s",
   },
   {
@@ -46,14 +46,14 @@ export const PRODUCTS = [
     weight: "500ml",
     title: "Amino forte",
     description: "To trái, đâm chồi, bóng lá, tăng sức sống, đề kháng cây",
-    id: 5,
+    id: "amino-forte",
     animationDuration: "1.2s",
   },
 ];
 
 export const PRODUCT_DETAILS = [
   {
-    id: 1,
+    id: "palmyran",
     name: "Agris Stym AA Palmyran",
     description:
       "Agris Stym AA Palmyran là một giải pháp dinh dưỡng tiên tiến, được sản xuất theo công nghệ hiện đại từ Tây Ban Nha. Sản phẩm này cung cấp nguồn Canxi và Bo dồi dào, giúp cải thiện khả năng đậu trái, tăng độ đồng đều và giảm thiểu các vấn đề như rụng trái non, nứt vỏ hay thối trái. <br />Nhờ hàm lượng axit amin tự do, Agris Stym AA Palmyran giúp cây trồng hấp thụ dưỡng chất tốt hơn, tăng cường khả năng sinh trưởng và phát triển bền vững. Phân bón phù hợp với nhiều loại cây trồng và có thể sử dụng trong mọi giai đoạn sinh trưởng, đặc biệt là giai đoạn đậu trái. <br />Với công thức dễ hòa tan, sản phẩm có thể pha loãng với nước và sử dụng bằng phương pháp phun tưới, đảm bảo phân phối dinh dưỡng đồng đều đến từng bộ phận của cây. Việc sử dụng định kỳ sẽ giúp cây trồng khỏe mạnh hơn, cho năng suất cao và chất lượng nông sản vượt trội. <br />Agris Stym AA Palmyran không chỉ giúp tối ưu năng suất cây trồng mà còn góp phần bảo vệ môi trường nhờ thành phần hữu cơ thân thiện. Đây là lựa chọn lý tưởng cho những ai mong muốn áp dụng phương pháp canh tác bền vững, an toàn và hiệu quả.",
@@ -78,7 +78,7 @@ export const PRODUCT_DETAILS = [
     ],
   },
   {
-    id: 2,
+    id: "boron-vinaf24",
     name: "Phân Bón Lá Vi Lượng Boron Vinaf24",
     description:
       "Boron Vinaf24 là phân bón lá vi lượng cao cấp, được nhập khẩu từ Ba Lan, giúp cây trồng phát triển mạnh mẽ và hạn chế tối đa hiện tượng rụng hoa, rụng trái non. Sản phẩm cung cấp lượng Boron dồi dào, giúp tăng cường sức sống của hạt phấn, kéo dài thời gian thụ phấn và thụ tinh hiệu quả. <br />Với công thức tối ưu, Boron Vinaf24 giúp định hình và phát triển trái bền vững, đảm bảo chất lượng và năng suất cây trồng. Bên cạnh đó, sản phẩm còn có tác dụng cân bằng dinh dưỡng và hỗ trợ cây trồng hấp thụ khoáng chất tốt hơn, từ đó tăng khả năng sinh trưởng và chống chịu với điều kiện môi trường bất lợi. <br />Phân bón này phù hợp với mọi loại cây trồng, đặc biệt là cây ăn trái và cây công nghiệp. Với hướng dẫn sử dụng đơn giản, bà con có thể dễ dàng áp dụng bằng cách pha loãng với nước và phun lên cây theo chu kỳ 7-10 ngày/lần. Boron Vinaf24 chính là giải pháp dinh dưỡng tối ưu, giúp nâng cao hiệu suất canh tác và đem lại vụ mùa bội thu.",
@@ -97,7 +97,7 @@ export const PRODUCT_DETAILS = [
     ],
   },
   {
-    id: 3,
+    id: "phospho-gel",
     name: "Mô tả sản phẩm: Phân Bón PHOSPHO GEL 17-69-17",
     description:
       "PHOSPHO GEL là phân bón lân gel đậm đặc nhập khẩu từ Tây Ban Nha, chuyên dùng để kích thích ra hoa và tăng khả năng đậu trái. Với hàm lượng lân cao, sản phẩm giúp cây trồng phân hóa mầm hoa nhanh chóng, đảm bảo hoa nở đồng loạt, giúp nâng cao hiệu suất thụ phấn và đậu quả. <br />Ngoài ra, sự kết hợp giữa lân và kali trong PHOSPHO GEL giúp cây trồng phát triển rễ khỏe mạnh, đồng thời tăng khả năng hấp thụ dinh dưỡng, giúp cây cứng cáp hơn trong điều kiện bất lợi. <br />Sản phẩm phù hợp với nhiều loại cây trồng, đặc biệt là cây ăn trái và cây công nghiệp, giúp bà con đạt năng suất cao và ổn định.",
@@ -119,7 +119,7 @@ export const PRODUCT_DETAILS = [
     ],
   },
   {
-    id: 4,
+    id: "selika-kplus",
     name: "Phân Bón Lá SILIKA K+",
     description:
       "SILIKA K+ là phân bón trung lượng đặc biệt, kết hợp Silicon và Kali, giúp cây trồng phát triển khỏe mạnh, tăng sức đề kháng và nâng cao năng suất. Silicon Oxide giúp cây chống lại nấm bệnh, vi khuẩn và sâu hại, đồng thời tăng cường khả năng chịu hạn, chịu mặn và nhiệt độ cao. Kali Oxide hỗ trợ quá trình phát triển rễ, thân và tăng chất lượng trái. <br />Sản phẩm này rất phù hợp cho cây ăn trái, lúa, hoa màu và các loại cây trồng khác, giúp nâng cao năng suất và chất lượng nông sản.",
@@ -142,7 +142,7 @@ export const PRODUCT_DETAILS = [
     ],
   },
   {
-    id: 5,
+    id: "amino-forte",
     name: "Phân Bón Hữu Cơ AMINO FORTE OM 40%",
     description:
       "AMINO FORTE OM 40% là phân bón hữu cơ đặc biệt chứa 19 loại L-Amino Acid, trong đó có 6 loại amino thiết yếu (L-Threonine, L-Valine, L-Methionine, L-Isoleucine, L-Phenylalanine, L-Lysine) và 6 loại amino bán thiết yếu (L-Arginine, L-Histidine). <br />Sản phẩm giúp cây trồng tăng kích thước trái, bóng trái, chống rụng và tăng khả năng chống chịu sâu bệnh, nấm và virus. Phù hợp cho nhiều loại cây trồng, đặc biệt là cây ăn trái, rau màu và hoa màu, giúp nâng cao năng suất và chất lượng nông sản.",

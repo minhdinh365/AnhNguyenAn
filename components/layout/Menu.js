@@ -14,7 +14,7 @@ export default function Menu() {
           <Link href="/about-us">Giới Thiệu</Link>
         </li>
         <li>
-          <Link href="/room-1">Sản Phẩm</Link>
+          <Link href="/products">Sản Phẩm</Link>
         </li>
         <li>
           <Link href="/events">Tuyển dụng</Link>

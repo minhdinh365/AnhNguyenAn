@@ -68,7 +68,7 @@ export default function TestimonialSlider5() {
                               >
                                 <div className="room-2-content">
                                   <h4 className="room-2-title">
-                                    <Link href="/room-details">Delux Room</Link>
+                                    <Link href="/product-details">Delux Room</Link>
                                   </h4>
                                 </div>
                                 <div className="room-2-content2">
@@ -80,7 +80,7 @@ export default function TestimonialSlider5() {
                                     <i className="icon-7"></i>
                                   </div>
                                   <h4 className="room-2-title">
-                                    <Link href="/room-details">Luxury Room</Link>
+                                    <Link href="/product-details">Luxury Room</Link>
                                   </h4>
                                   <p className="room-2-meta-info">
                                     Start from <span className="theme-color">$55.0</span>/night
@@ -109,7 +109,7 @@ export default function TestimonialSlider5() {
       >
         <div className="room-2-content">
           <h4 className="room-2-title">
-            <Link href="/room-details">Queen Room</Link>
+            <Link href="/product-details">Queen Room</Link>
           </h4>
         </div>
         <div className="room-2-content2">
@@ -121,7 +121,7 @@ export default function TestimonialSlider5() {
             <i className="icon-7"></i>
           </div>
           <h4 className="room-2-title">
-            <Link href="/room-details">Classic Room</Link>
+            <Link href="/product-details">Classic Room</Link>
           </h4>
           <p className="room-2-meta-info">
             Start from <span className="theme-color">$55.0</span>/night
@@ -142,7 +142,7 @@ export default function TestimonialSlider5() {
                 <div className="swiper-slide">
           <div className="room-2-block alt wow fadeInUp" data-wow-delay=".2s" data-wow-duration=".8s" style={{ backgroundImage: "url(assets/images/resource/room-10.jpg)" }}>
             <div className="room-2-content">
-              <h4 className="room-2-title"><Link href="/room-details">Luxury Room</Link></h4>
+              <h4 className="room-2-title"><Link href="/product-details">Luxury Room</Link></h4>
             </div>
             <div className="room-2-content2">
               <div className="room-2-rating">
@@ -152,7 +152,7 @@ export default function TestimonialSlider5() {
                 <i className="icon-6"></i>
                 <i className="icon-7"></i>
               </div>
-              <h4 className="room-2-title"><Link href="/room-details">Queen Room</Link></h4>
+              <h4 className="room-2-title"><Link href="/product-details">Queen Room</Link></h4>
               <p className="room-2-meta-info">Start from <span className="theme-color">$55.0</span>/night</p>
               <p className="room-2-text mb_20">Mattis cras magna morb punar <br /> aliquet in. Risus a arcu eget.</p>
               <div className="link-btn"><Link href="/" className="btn-1 btn-small">Book Now <span></span></Link></div>
@@ -164,7 +164,7 @@ export default function TestimonialSlider5() {
                 <div className="swiper-slide">
           <div className="room-2-block alt wow fadeInUp" data-wow-delay=".2s" data-wow-duration=".8s" style={{ backgroundImage: "url(assets/images/resource/room-11.jpg)" }}>
             <div className="room-2-content">
-              <h4 className="room-2-title"><Link href="/room-details">Queen Room</Link></h4>
+              <h4 className="room-2-title"><Link href="/product-details">Queen Room</Link></h4>
             </div>
             <div className="room-2-content2">
               <div className="room-2-rating">
@@ -174,7 +174,7 @@ export default function TestimonialSlider5() {
                 <i className="icon-6"></i>
                 <i className="icon-7"></i>
               </div>
-              <h4 className="room-2-title"><Link href="/room-details">Luxury Room</Link></h4>
+              <h4 className="room-2-title"><Link href="/product-details">Luxury Room</Link></h4>
               <p className="room-2-meta-info">Start from <span className="theme-color">$55.0</span>/night</p>
               <p className="room-2-text mb_20">Mattis cras magna morb punar <br /> aliquet in. Risus a arcu eget.</p>
               <div className="link-btn"><Link href="/" className="btn-1 btn-small">Book Now <span></span></Link></div>
@@ -194,7 +194,7 @@ export default function TestimonialSlider5() {
       >
         <div className="room-2-content">
           <h4 className="room-2-title">
-            <Link href="/room-details">Delux Room</Link>
+            <Link href="/product-details">Delux Room</Link>
           </h4>
         </div>
         <div className="room-2-content2">
@@ -206,7 +206,7 @@ export default function TestimonialSlider5() {
             <i className="icon-7"></i>
           </div>
           <h4 className="room-2-title">
-            <Link href="/room-details">Queen Room</Link>
+            <Link href="/product-details">Queen Room</Link>
           </h4>
           <p className="room-2-meta-info">
             Start from <span className="theme-color">$55.0</span>/night
@@ -235,7 +235,7 @@ export default function TestimonialSlider5() {
       >
         <div className="room-2-content">
           <h4 className="room-2-title">
-            <Link href="/room-details">Delux Room</Link>
+            <Link href="/product-details">Delux Room</Link>
           </h4>
         </div>
         <div className="room-2-content2">
@@ -247,7 +247,7 @@ export default function TestimonialSlider5() {
             <i className="icon-7"></i>
           </div>
           <h4 className="room-2-title">
-            <Link href="/room-details">Classic Room</Link>
+            <Link href="/product-details">Classic Room</Link>
           </h4>
           <p className="room-2-meta-info">
             Start from <span className="theme-color">$55.0</span>/night
