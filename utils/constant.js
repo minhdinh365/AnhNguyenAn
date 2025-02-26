@@ -76,6 +76,10 @@ export const PRODUCT_DETAILS = [
       "Cải thiện độ đồng đều của trái, hạn chế rụng trái non, chống nứt vỏ và thối trái.",
       "Cung cấp các axit amin tự do, tăng cường khả năng hấp thụ dinh dưỡng và phát triển bền vững.",
     ],
+    orgins: [
+      "Sản xuất tại Tây Ban Nha (Châu Âu).",
+      "Hạn sử dụng: 3 năm kể từ ngày sản xuất.",
+    ],
   },
   {
     id: "boron-vinaf24",
@@ -94,6 +98,10 @@ export const PRODUCT_DETAILS = [
       "Giảm rụng hoa và quả non, giúp cây đậu trái tốt hơn.",
       "Hỗ trợ định hình và phát triển trái, đặc biệt với cây ăn trái có nhu cầu dinh dưỡng cao.",
       "Cân bằng dinh dưỡng, tăng khả năng hấp thụ khoáng chất giúp cây phát triển toàn diện.",
+    ],
+    origins: [
+      "Xuất xứ: Ba Lan (Châu Âu).",
+      "Hạn sử dụng: 3 năm kể từ ngày sản xuất.",
     ],
   },
   {
@@ -117,6 +125,10 @@ export const PRODUCT_DETAILS = [
       "Kích thích ra hoa đồng loạt, giúp cây ra hoa tập trung, hạn chế ra hoa rải rác.",
       "Tăng tối đa tỉ lệ đậu trái, nâng cao năng suất và chất lượng nông sả",
     ],
+    origins: [
+      "Xuất xứ: Tây Ban Nha (Châu Âu).",
+      "Hạn sử dụng: 3 năm kể từ ngày sản xuất.",
+    ],
   },
   {
     id: "selika-kplus",
@@ -139,6 +151,10 @@ export const PRODUCT_DETAILS = [
       "Tăng khả năng chịu hạn, chịu mặn, chịu nhiệt, giúp cây trồng phát triển tốt trong điều kiện khắc nghiệt.",
       "Củng cố cấu trúc cây, giúp thân cây cứng cáp, giảm nguy cơ đổ ngã, đặc biệt với cây trồng cao như lúa.",
       "Cải thiện khả năng hấp thụ dưỡng chất như đạm, lân, kali và vi lượng, thúc đẩy cây phát triển khỏe mạnh.",
+    ],
+    orgins: [
+      "Xuất xứ: Ấn Độ (India)",
+      "Hạn sử dụng: 3 năm kể từ ngày sản xuất",
     ],
   },
   {
@@ -164,6 +180,7 @@ export const PRODUCT_DETAILS = [
       "Tăng cường tổng hợp diệp lục tố (Chlorophyll), thúc đẩy quang hợp hiệu quả.",
       "Tăng khả năng đề kháng virus cho cây trồng.",
     ],
+    orgins: ["Xuất xứ: Italy (Ý)", "Hạn sử dụng: 3 năm kể từ ngày sản xuất"],
   },
 ];
 
@@ -174,7 +191,7 @@ export const RECRUIT = [
     address: "SL: 03, Thành Phố Cần Thơ",
     requirements:
       "3 năm kinh nghiệm. Trình độ cao đẳng trở lên. Có tiếng anh là một lợi thế.",
-    image: "/assets/images/resource/event-1.jpg"
+    image: "/assets/images/resource/event-1.jpg",
   },
   {
     id: 2,
@@ -182,6 +199,6 @@ export const RECRUIT = [
     address: "SL: 03 (nam) và 03 (nữ), tại các tỉnh Miền Đông, Tây Nguyên",
     requirements:
       "3 năm kinh nghiệm. Trình độ cao đẳng trở lên. Có tiếng anh là một lợi thế.",
-    image: "/assets/images/resource/event-1.jpg"
+    image: "/assets/images/resource/event-1.jpg",
   },
 ];
