@@ -76,9 +76,31 @@ export const PRODUCT_DETAILS = [
       "Cải thiện độ đồng đều của trái, hạn chế rụng trái non, chống nứt vỏ và thối trái.",
       "Cung cấp các axit amin tự do, tăng cường khả năng hấp thụ dinh dưỡng và phát triển bền vững.",
     ],
-    orgins: [
+    origins: [
       "Sản xuất tại Tây Ban Nha (Châu Âu).",
       "Hạn sử dụng: 3 năm kể từ ngày sản xuất.",
+    ],
+    subDetails: [
+      {
+        image: "/assets/images/resource/palmyran-1.jpg",
+        title: "Trên cây sầu riêng",
+        description: "",
+      },
+      {
+        image: "/assets/images/resource/palmyran-4.jpg",
+        title: "Trên cây cam sành",
+        description: "",
+      },
+      {
+        image: "/assets/images/resource/palmyran-2.jpg",
+        title: "Trên cây sầu riêng",
+        description: "",
+      },
+      {
+        image: "/assets/images/resource/palmyran-3.jpg",
+        title: "Trên cây sầu riêng",
+        description: "",
+      },
     ],
   },
   {
@@ -102,6 +124,33 @@ export const PRODUCT_DETAILS = [
     origins: [
       "Xuất xứ: Ba Lan (Châu Âu).",
       "Hạn sử dụng: 3 năm kể từ ngày sản xuất.",
+    ],
+    subDetails: [
+      {
+        image: "/assets/images/resource/boron-vinaf24-1.jpg",
+        title: "Trên cây sầu riêng",
+        description: "",
+      },
+      {
+        image: "/assets/images/resource/boron-vinaf24-5.jpg",
+        title: "Trên cây cam sành",
+        description: "",
+      },
+      {
+        image: "/assets/images/resource/boron-vinaf24-2.jpg",
+        title: "Trên cây sầu riêng",
+        description: "",
+      },
+      {
+        image: "/assets/images/resource/boron-vinaf24-3.jpg",
+        title: "Trên cây sầu riêng",
+        description: "",
+      },
+      {
+        image: "/assets/images/resource/boron-vinaf24-4.jpg",
+        title: "Trên cây sầu riêng",
+        description: "",
+      },
     ],
   },
   {
@@ -129,6 +178,28 @@ export const PRODUCT_DETAILS = [
       "Xuất xứ: Tây Ban Nha (Châu Âu).",
       "Hạn sử dụng: 3 năm kể từ ngày sản xuất.",
     ],
+    subDetails: [
+      {
+        image: "/assets/images/resource/phospho-gel-1.jpg",
+        title: "Trên cây cam sành",
+        description: "",
+      },
+      {
+        image: "/assets/images/resource/phospho-gel-2.jpg",
+        title: "Trên cây sầu riêng",
+        description: "",
+      },
+      {
+        image: "/assets/images/resource/phospho-gel-3.jpg",
+        title: "Trên cây sầu riêng",
+        description: "",
+      },
+      {
+        image: "/assets/images/resource/phospho-gel-4.jpg",
+        title: "Trên cây sầu riêng",
+        description: "",
+      },
+    ],
   },
   {
     id: "selika-kplus",
@@ -152,9 +223,31 @@ export const PRODUCT_DETAILS = [
       "Củng cố cấu trúc cây, giúp thân cây cứng cáp, giảm nguy cơ đổ ngã, đặc biệt với cây trồng cao như lúa.",
       "Cải thiện khả năng hấp thụ dưỡng chất như đạm, lân, kali và vi lượng, thúc đẩy cây phát triển khỏe mạnh.",
     ],
-    orgins: [
+    origins: [
       "Xuất xứ: Ấn Độ (India)",
       "Hạn sử dụng: 3 năm kể từ ngày sản xuất",
+    ],
+    subDetails: [
+      {
+        image: "/assets/images/resource/selika-kplus-1.jpg",
+        title: "Trên cây sầu riêng",
+        description: "",
+      },
+      {
+        image: "/assets/images/resource/selika-kplus-2.jpg",
+        title: "Trên cây sầu riêng",
+        description: "",
+      },
+      {
+        image: "/assets/images/resource/selika-kplus-3.jpg",
+        title: "Trên cây sầu riêng",
+        description: "",
+      },
+      {
+        image: "/assets/images/resource/selika-kplus-4.jpg",
+        title: "Trên cây sầu riêng",
+        description: "",
+      },
     ],
   },
   {
@@ -180,7 +273,29 @@ export const PRODUCT_DETAILS = [
       "Tăng cường tổng hợp diệp lục tố (Chlorophyll), thúc đẩy quang hợp hiệu quả.",
       "Tăng khả năng đề kháng virus cho cây trồng.",
     ],
-    orgins: ["Xuất xứ: Italy (Ý)", "Hạn sử dụng: 3 năm kể từ ngày sản xuất"],
+    origins: ["Xuất xứ: Italy (Ý)", "Hạn sử dụng: 3 năm kể từ ngày sản xuất"],
+    subDetails: [
+      {
+        image: "/assets/images/resource/amino-forte-1.jpg",
+        title: "Trên cây sầu riêng",
+        description: "",
+      },
+      {
+        image: "/assets/images/resource/amino-forte-2.jpg",
+        title: "Trên cây sầu riêng",
+        description: "",
+      },
+      {
+        image: "/assets/images/resource/amino-forte-3.jpg",
+        title: "Trên cây sầu riêng",
+        description: "",
+      },
+      {
+        image: "/assets/images/resource/amino-forte-4.jpg",
+        title: "Trên cây sầu riêng",
+        description: "",
+      },
+    ],
   },
 ];
 

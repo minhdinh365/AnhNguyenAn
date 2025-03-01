@@ -18,7 +18,7 @@ export default function Features() {
               <div className="feature-1-image hvr-img-zoom-1"><img src="assets/images/resource/sau-rieng.jpg" alt="" /></div>
               <h4 className="feature-1-title">Kỹ thuật trên cây <br/> Sầu riêng </h4>
               <p className="feature-1-text">Amet minim mollit no duis sit enim <br /> aliqua dolor do amet officia.</p>
-              <div className="feature-1-link"><Link className="feature-1-link-btn hvr-zoom-1 hvr-zoom-1-primary" href="/service-details"><i className="icon-5"></i></Link></div>
+              <div className="feature-1-link"><Link className="feature-1-link-btn hvr-zoom-1 hvr-zoom-1-primary" href="#"><i className="icon-5"></i></Link></div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
@@ -26,7 +26,7 @@ export default function Features() {
               <div className="feature-1-image hvr-img-zoom-1"><img src="assets/images/resource/cam-sanh.jpg" alt="" /></div>
               <h4 className="feature-1-title">Kỹ thuật trên cây <br/> Cam sành</h4>
               <p className="feature-1-text">Amet minim mollit no duis sit enim <br /> aliqua dolor do amet officia.</p>
-              <div className="feature-1-link"><Link className="feature-1-link-btn hvr-zoom-1 hvr-zoom-1-primary" href="/service-details"><i className="icon-5"></i></Link></div>
+              <div className="feature-1-link"><Link className="feature-1-link-btn hvr-zoom-1 hvr-zoom-1-primary" href="#"><i className="icon-5"></i></Link></div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
@@ -34,7 +34,7 @@ export default function Features() {
               <div className="feature-1-image hvr-img-zoom-1"><img src="assets/images/resource/thanh-long.jpg" alt="" /></div>
               <h4 className="feature-1-title">Kỹ thuật trên cây <br/> Thanh Long</h4>
               <p className="feature-1-text">Amet minim mollit no duis sit enim <br /> aliqua dolor do amet officia.</p>
-              <div className="feature-1-link"><Link className="feature-1-link-btn hvr-zoom-1 hvr-zoom-1-primary" href="/service-details"><i className="icon-5"></i></Link></div>
+              <div className="feature-1-link"><Link className="feature-1-link-btn hvr-zoom-1 hvr-zoom-1-primary" href="#"><i className="icon-5"></i></Link></div>
             </div>
           </div>
         </div>
