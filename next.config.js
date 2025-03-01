@@ -3,7 +3,7 @@ const nextConfig = {
   async headers() {
     return [
       {
-        source: "/sitemap.xml",
+        source: "/*",
         headers: [
           {
             key: "Referrer-Policy",
