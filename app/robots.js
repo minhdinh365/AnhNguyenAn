@@ -4,6 +4,6 @@ export default function robots() {
         userAgent: '*',
         allow: '/',
       },
-      sitemap: 'https://anhnguyenan.netlify.app/',
+      sitemap: 'https://anhnguyenan.netlify.app/sitemap.xml',
     }
   }
