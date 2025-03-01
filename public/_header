@@ -1,0 +1,4 @@
+/sitemap.xml
+  Referrer-Policy: no-referrer-when-downgrade
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, OPTIONS
