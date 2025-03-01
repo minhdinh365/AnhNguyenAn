@@ -1,9 +1,16 @@
 export default function robots() {
-    return {
-      rules: {
-        userAgent: '*',
-        allow: '/',
+  return {
+    rules: [
+      {
+        userAgent: "Googlebot",
+        allow: ["/"],
+        disallow: ["/private/"],
       },
-      sitemap: 'https://anhnguyenan.netlify.app/sitemap.xml',
-    }
-  }
+      {
+        userAgent: ["Applebot", "Bingbot"],
+        disallow: ["/"],
+      },
+    ],
+    sitemap: "https://anhnguyenan.netlify.app/sitemap.xml",
+  };
+}
