@@ -13,10 +13,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${dmSans.variable} ${cormorant.variable}`}>
       <head>
-        <meta
+        {/* <meta
           name="google-site-verification"
           content="pNlabxxd4V_pwX3sNj1nEVAHR96Yi_2TMttiH6HFR_c"
-        />
+        /> */}
+        <meta name="google-site-verification" content="vGxYKAt_Ni_-ao5YMJLZFHwzR3N2wZH7zflOZ5sLN0Y" />
       </head>
       <body>{children}</body>
     </html>
