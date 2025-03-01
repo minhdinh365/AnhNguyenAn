@@ -4,7 +4,6 @@ export default function robots() {
       {
         userAgent: "Googlebot",
         allow: ["/"],
-        disallow: ["/private/"],
       },
       {
         userAgent: ["Applebot", "Bingbot"],
