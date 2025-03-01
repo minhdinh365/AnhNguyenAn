@@ -1,5 +1,5 @@
 [[headers]]
-  for = "/*"
+  for = "/sitemap.xml"
   [headers.values]
     Referrer-Policy = "no-referrer-when-downgrade"
     Access-Control-Allow-Origin = "*"
