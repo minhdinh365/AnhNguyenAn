@@ -1,7 +1,6 @@
-import { MetadataRoute } from "next";
+import { MetadataRoute, Metadata } from "next";
 
-
-export const metadata = {
+export const metadata:Metadata = {
   title: "Anh Nguyễn An",
   robots: {
     index: true,
