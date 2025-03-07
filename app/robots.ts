@@ -1,12 +1,4 @@
-import { MetadataRoute, Metadata } from "next";
-
-export const metadata:Metadata = {
-  title: "Anh Nguyễn An",
-  robots: {
-    index: true,
-    follow: true,
-  },
-};
+import { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
   return {
