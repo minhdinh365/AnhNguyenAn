@@ -1,5 +1,13 @@
 import { MetadataRoute } from "next";
 
+export const metadata = {
+  title: "Anh Nguyễn An",
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://anhnguyenan.netlify.app";
 
