@@ -1,2 +1,5 @@
-/*
-  Access-Control-Allow-Origin: *
+/sitemap.xml
+  Cache-Control: public, max-age=0, must-revalidate
+  Cache-Status: "Netlify Edge"; hit
+  ETag: "replace-with-your-etag"
+  Vary: Accept-Encoding
