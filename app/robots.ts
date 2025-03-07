@@ -5,8 +5,6 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: "*",
-        allow: "/",
-        disallow: ["/admin", "/privacy"],
       },
     ],
     sitemap: "https://anhnguyenan.netlify.app/sitemap.xml",
