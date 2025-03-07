@@ -7,11 +7,15 @@ import { cormorant, dmSans } from "@/lib/font";
 export const metadata = {
   title: "Anh Nguyễn An",
   description: "Công Ty TNHH Thương Mại XNK Nguyễn An",
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${dmSans.variable} ${cormorant.variable}`}>
+    <html lang="vi" className={`${dmSans.variable} ${cormorant.variable}`}>
       <head>
         <meta
           name="google-site-verification"
