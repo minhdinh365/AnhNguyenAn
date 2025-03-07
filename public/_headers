@@ -1,5 +1,4 @@
 /sitemap.xml
-  Cache-Control: public, max-age=0, must-revalidate
+  Cache-Control: public, max-age=3600, must-revalidate
   Cache-Status: "Netlify Edge"; hit
-  ETag: "replace-with-your-etag"
   Vary: Accept-Encoding
