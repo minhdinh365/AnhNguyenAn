@@ -1,6 +1,6 @@
 [[headers]]
   for = "/sitemap.xml"
   [headers.values]
-    Cache-Control: public, max-age=3600, must-revalidate
-    Cache-Status: "Netlify Edge"; hit
-    Vary: Accept-Encoding
+    Cache-Control = "public, max-age=0, must-revalidate"
+    Cache-Status = "\"Netlify Edge\"; hit"
+    Vary = "Accept-Encoding"
