@@ -6,16 +6,16 @@ const nextConfig = {
         source: "/sitemap.xml",
         headers: [
           {
-            key: "Cache-Control",
-            value: "public, max-age=3600, must-revalidate",
+            key: "Referrer-Policy",
+            value: "no-referrer-when-downgrade",
           },
           {
-            key: "Cache-Status",
-            value: '"Netlify Edge"; hit',
+            key: "Access-Control-Allow-Origin",
+            value: "*",
           },
           {
-            key: "Vary",
-            value: "Accept-Encoding",
+            key: "Access-Control-Allow-Methods",
+            value: "GET, OPTIONS",
           },
         ],
       },
@@ -23,16 +23,16 @@ const nextConfig = {
         source: "/robots.txt",
         headers: [
           {
-            key: "Cache-Control",
-            value: "public, max-age=3600, must-revalidate",
+            key: "Referrer-Policy",
+            value: "no-referrer-when-downgrade",
           },
           {
-            key: "Cache-Status",
-            value: '"Netlify Edge"; hit',
+            key: "Access-Control-Allow-Origin",
+            value: "*",
           },
           {
-            key: "Vary",
-            value: "Accept-Encoding",
+            key: "Access-Control-Allow-Methods",
+            value: "GET, OPTIONS",
           },
         ],
       },
