@@ -1,6 +1,7 @@
 [[headers]]
   for = "/sitemap.xml"
   [headers.values]
-    Cache-Control = "public, max-age=0, must-revalidate"
-    Cache-Status = "\"Netlify Edge\"; hit"
-    Vary = "Accept-Encoding"
+    Referrer-Policy = "no-referrer-when-downgrade"
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type"
